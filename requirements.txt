@@ -1,0 +1,9 @@
+# scikit-learn is pinned because the .joblib pipelines in model/ were fitted
+# with this exact version - a different minor version can refuse to unpickle.
+scikit-learn==1.8.0
+streamlit>=1.50
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+joblib>=1.3

@@ -1,0 +1,92 @@
+{
+  "dataset": "UCI Dry Bean Dataset (ID 602)",
+  "source": "https://archive.ics.uci.edu/dataset/602/dry+bean+dataset",
+  "n_rows": 13611,
+  "n_features": 16,
+  "feature_names": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "classes": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "class_counts": {
+    "DERMASON": 3546,
+    "SIRA": 2636,
+    "SEKER": 2027,
+    "HOROZ": 1928,
+    "CALI": 1630,
+    "BARBUNYA": 1322,
+    "BOMBAY": 522
+  },
+  "test_size": 0.2,
+  "random_state": 2025,
+  "averaging": "macro (One-vs-Rest for AUC)",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9247153874403232,
+      "AUC": 0.9953094150937476,
+      "Precision": 0.93658884529719,
+      "Recall": 0.9329751790090942,
+      "F1": 0.9346855720160269,
+      "MCC": 0.9089526883976616,
+      "TrainSeconds": 0.287
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9059860448035255,
+      "AUC": 0.9758129201861622,
+      "Precision": 0.920442514632085,
+      "Recall": 0.9158556659262305,
+      "F1": 0.9179222914412123,
+      "MCC": 0.8862912156811666,
+      "TrainSeconds": 0.392
+    },
+    "kNN": {
+      "Accuracy": 0.9261843554902681,
+      "AUC": 0.9904738923261455,
+      "Precision": 0.9396318903705739,
+      "Recall": 0.9346679915893253,
+      "F1": 0.9369233043154624,
+      "MCC": 0.9107644014448274,
+      "TrainSeconds": 0.008
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.9052515607785531,
+      "AUC": 0.9931355108216318,
+      "Precision": 0.9155182277763502,
+      "Recall": 0.9153049627175938,
+      "F1": 0.9148506955062354,
+      "MCC": 0.8857673104065835,
+      "TrainSeconds": 0.009
+    },
+    "Random Forest": {
+      "Accuracy": 0.9258171134777818,
+      "AUC": 0.9951418450180479,
+      "Precision": 0.9379652221023458,
+      "Recall": 0.9337688087689381,
+      "F1": 0.935772653756045,
+      "MCC": 0.9102515009176804,
+      "TrainSeconds": 2.002
+    }
+  }
+}
