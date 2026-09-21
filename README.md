@@ -1,6 +1,6 @@
 # Dry Bean Classifier Bench — ML Assignment 2
 
-**Name:** _<your full name>_ · **BITS ID:** 2025AC05211
+**Name:** Aryadip Mridha · **BITS ID:** 2025AC05211
 **Course:** Machine Learning (AIMLCZG565) · M.Tech AIML
 
 ---
@@ -82,9 +82,7 @@ does not.
 
 ## c. GitHub repository link
 
-> **https://github.com/&lt;your-github-username&gt;/dry-bean-classifier-bench**
->
-> _Replace this line with your actual public repository URL before submitting._
+> **<https://github.com/AryadipMridha/dry-bean-classifier-bench>**
 
 Repository contents:
 
